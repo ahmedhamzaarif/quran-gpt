@@ -5,7 +5,8 @@ const ChatBot = () => {
         <BubbleChat 
         id="chatBotButton"
         chatflowid="02248678-7ab9-44d2-a93c-b9757ce8fd14"
-        apiHost="https://q-gpt.onrender.com" theme={{
+        apiHost="https://q-gpt.onrender.com"
+        theme={{
             button: {
                 backgroundColor: "#144d45",
                 right: 30,
