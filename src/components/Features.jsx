@@ -4,7 +4,7 @@ import FeatureCol from './FeatureCol'
 const Features = () => {
   return (
     
-    <section id="features" className="py-5 text-white">
+    <section id="features" className="py-5">
     <div className="container my-5">
         <h2 className="section-title text-center display-5 mb-5">What makes a password strong?</h2>
         <div className="row">

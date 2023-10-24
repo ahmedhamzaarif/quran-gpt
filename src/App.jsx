@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.js'
-import { FAQs, Features, Footer, Header, Hero } from './components';
+import { ChatBot, FAQs, Features, Footer, Header, Hero } from './components';
 
 const App = () => {
 
@@ -27,6 +27,7 @@ const App = () => {
     <div>
       <Header isSticky={isSticky}/>
       <main id="main">
+        <ChatBot/>
         <Hero/>
         <Features/>
         <FAQs/>
